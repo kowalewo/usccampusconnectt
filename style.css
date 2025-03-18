@@ -48,3 +48,48 @@ main {
     padding: 10px; /*sets the padding to 10px*/
     margin-bottom: 10px; /*sets the margin bottom to 10px*/
 }
+
+button {
+    background-color: lightgray; /*sets the background color to light gray*/
+    color: black; /*sets the text color to black*/
+    font-size: 16px; /*sets the font size to 16px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin: 10px; /*sets the margin to 10px*/
+    border: none; /*removes the border*/
+    border-radius: 5px; /*makes the corners rounded*/
+    cursor: pointer; /*sets the cursor to pointer*/
+}
+
+h2 {
+    color: black; /*sets the text color to black*/
+    font-size: 20px; /*sets the font size to 16px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin: 10px; /*sets the margin to 10px*/
+}
+
+footer {
+    display: flex; /*sets the display to flex*/
+    justify-content: center; /*sets the justify content to center*/
+    align-items: center; /*sets the align items to center*/
+    background-color: lightgray; /*sets the background color to light gray*/
+    color: black; /*sets the text color to black*/
+    font-size: 16px; /*sets the font size to 16px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin-bottom: 10px; /*sets the margin bottom to 10px*/
+}
+
+footer img {
+    width: 80px; /*sets the width to 80px*/
+    height: 80px; /*sets the height to 80px*/
+}
+
+.websitecontact {
+    display: flex; /*sets the display to flex*/
+    justify-content: center; /*sets the justify content to center*/
+    align-items: center; /*sets the align items to center*/
+    background-color: red; /*sets the background color to red*/
+    color: black; /*sets the text color to black*/
+    font-size: 16px; /*sets the font size to 16px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin-bottom: 10px; /*sets the margin bottom to 10px*/
+}
