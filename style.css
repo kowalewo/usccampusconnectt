@@ -1,0 +1,50 @@
+style.css
+
+body{ 
+    font-family: Arial; /*sets all text within the body to arial*/
+    margin: 0; /*sets the margin to 0*/
+    padding: 0; /*sets the padding to 0*/
+    background: white; /*sets the background color to white*/
+    color: black; /*sets the text color to black*/
+    font-size: 16px; /*sets the font size to 16px*/
+}
+
+header {
+    display: flex; /*sets the display to flex*/
+    justify-content: space-between; /*sets the justify content to space between*/
+    align-items: center; /*sets the align items to center*/
+    background-color: lightgray; /*sets the background color to light gray*/
+   color: black; /*sets the text color to black*/
+    font-size: 16px; /*sets the font size to 16px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin-bottom: 10px; /*sets the margin bottom to 10px*/
+}
+
+.logo img {
+    width: 80px; /*sets the width to 80px*/
+    height: 80px; /*sets the height to 80px*/
+}
+
+nav ul {
+    display: flex; /*sets the display to flex*/
+    list-style: none; /*removes the list style*/
+    padding: 0; /*sets the padding to 0*/
+    margin: 0; /*sets the margin to 0*/
+}
+
+nav ul li {
+    margin-right: 10px; /*sets the margin right to 10px*/
+    margin: 0 15px; /*sets the margin to 0 15px*/
+    font-size: 16px; /*sets the font size to 16px*/
+}
+
+main {
+    display: flex; /*sets the display to flex*/
+    justify-content: center; /*sets the justify content to center*/
+    align-items: center; /*sets the align items to center*/
+    background-color: lightgray; /*sets the background color to light gray*/
+    color: black; /*sets the text color to black*/
+    font-size: 16px; /*sets the font size to 16px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin-bottom: 10px; /*sets the margin bottom to 10px*/
+}
