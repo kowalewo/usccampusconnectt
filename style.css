@@ -13,11 +13,26 @@ header {
     display: flex; /*sets the display to flex*/
     justify-content: space-between; /*sets the justify content to space between*/
     align-items: center; /*sets the align items to center*/
-    background-color: lightgray; /*sets the background color to light gray*/
-   color: black; /*sets the text color to black*/
+    background-color: lightgray; /*sets the background color to gray*/
+    color: black; /*sets the text color to black*/
     font-size: 16px; /*sets the font size to 16px*/
     padding: 10px; /*sets the padding to 10px*/
     margin-bottom: 10px; /*sets the margin bottom to 10px*/
+}
+
+h1{
+    color: black; /*sets the text color to black*/
+    font-size: 25px; /*sets the font size to 20px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin: 10px; /*sets the margin to 10px*/
+}
+
+h3 {
+    color: black; /*sets the text color to black*/
+    font-size: 20px; /*sets the font size to 20px*/
+    padding: 10px; /*sets the padding to 10px*/
+    margin: 10px; /*sets the margin to 10px*/
+    text-align:center; /*sets the text align to center*/
 }
 
 .logo img {
@@ -33,24 +48,29 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 10px; /*sets the margin right to 10px*/
     margin: 0 15px; /*sets the margin to 0 15px*/
     font-size: 16px; /*sets the font size to 16px*/
 }
+nav ul li a {
+    text-decoration: none; /*removes the underline*/
+    color: black; /*sets the text color to black*/
+}
+
 
 main {
     display: flex; /*sets the display to flex*/
-    justify-content: center; /*sets the justify content to center*/
+    flex-direction: column; /*sets the justify content to column*/
     align-items: center; /*sets the align items to center*/
-    background-color: lightgray; /*sets the background color to light gray*/
+    background-color: white; /*sets the background color to white*/
     color: black; /*sets the text color to black*/
     font-size: 16px; /*sets the font size to 16px*/
-    padding: 10px; /*sets the padding to 10px*/
+    padding: 20px; /*sets the padding to 20px*/
     margin-bottom: 10px; /*sets the margin bottom to 10px*/
+    width: 100%; /*sets the width to 100%*/
 }
 
 button {
-    background-color: lightgray; /*sets the background color to light gray*/
+    background-color: red; /*sets the background color to red*/
     color: black; /*sets the text color to black*/
     font-size: 16px; /*sets the font size to 16px*/
     padding: 10px; /*sets the padding to 10px*/
@@ -68,9 +88,9 @@ h2 {
 }
 
 footer {
-    display: flex; /*sets the display to flex*/
-    justify-content: center; /*sets the justify content to center*/
-    align-items: center; /*sets the align items to center*/
+    display: block; /*sets the display to block*/
+    justify-content: left; /*sets the justify content to left*/
+    align-items: center; /*sets the align items to left*/
     background-color: lightgray; /*sets the background color to light gray*/
     color: black; /*sets the text color to black*/
     font-size: 16px; /*sets the font size to 16px*/
@@ -83,11 +103,11 @@ footer img {
     height: 80px; /*sets the height to 80px*/
 }
 
-.websitecontact {
+.form-box {
     display: flex; /*sets the display to flex*/
     justify-content: center; /*sets the justify content to center*/
     align-items: center; /*sets the align items to center*/
-    background-color: red; /*sets the background color to red*/
+    background-color: lightgray; /*sets the background color to light gray*/
     color: black; /*sets the text color to black*/
     font-size: 16px; /*sets the font size to 16px*/
     padding: 10px; /*sets the padding to 10px*/
