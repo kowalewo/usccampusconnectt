@@ -22,7 +22,7 @@ header {
 
 h1{
     color: black; /*sets the text color to black*/
-    font-size: 25px; /*sets the font size to 20px*/
+    font-size: 30px; /*sets the font size to 30px*/
     padding: 10px; /*sets the padding to 10px*/
     margin: 10px; /*sets the margin to 10px*/
 }
@@ -69,20 +69,35 @@ main {
     width: 100%; /*sets the width to 100%*/
 }
 
-button {
-    background-color: red; /*sets the background color to red*/
-    color: black; /*sets the text color to black*/
-    font-size: 16px; /*sets the font size to 16px*/
-    padding: 10px; /*sets the padding to 10px*/
-    margin: 10px; /*sets the margin to 10px*/
-    border: none; /*removes the border*/
-    border-radius: 5px; /*makes the corners rounded*/
-    cursor: pointer; /*sets the cursor to pointer*/
+/* Style the event calendar link as a button */
+.event-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Removes the underline */
+    color: white; /* Text color */
+    background-color: rgb(169, 6, 6);/*Sets color of button to red */
+    border-radius: 5px; /* Rounds the corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.event-button:hover {
+    background-color: #701c05; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+}
+
+/* Center the button */
+.button-container {
+    text-align: center;
+    margin-top: 10px; 
 }
 
 h2 {
     color: black; /*sets the text color to black*/
-    font-size: 20px; /*sets the font size to 16px*/
+    font-size: 30px; /*sets the font size to 30px*/
     padding: 10px; /*sets the padding to 10px*/
     margin: 10px; /*sets the margin to 10px*/
 }
@@ -112,4 +127,33 @@ footer img {
     font-size: 16px; /*sets the font size to 16px*/
     padding: 10px; /*sets the padding to 10px*/
     margin-bottom: 10px; /*sets the margin bottom to 10px*/
+}
+
+.resource-item {
+    display: flex;  /* Aligns text and image horizontally */
+    justify-content: space-around;  /* Adds space between text and image */
+    gap: 20px;  /* Adds spacing between text and image */
+    margin-bottom: 30px;  /* Adds spacing between sections */
+    flex-direction: row;  /* Aligns text and image horizontally */
+}
+
+.resource-item img {
+    max-width: 400px; /* Ensures images are responsive */
+    height: auto;
+}
+
+.resource-item div {
+    max-width: 600px; /* Limits text width for readability */
+}
+
+main div {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically (image and text) */
+    align-items: center; /* Center align the content */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add some space at the bottom of each section */
+}
+
+main div img {
+    margin-bottom: 10px; /* Add space between the image and the link */
 }
